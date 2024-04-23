@@ -16,7 +16,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "q.iamas.ink/",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["Private", "Templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
