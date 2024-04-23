@@ -1,3 +1,6 @@
-a
+---
+title: Welcome to Quartz
+---
 
-WHY DID IT DELETE EVERYTHING LOL
+quartz, [documentation](https://quartz.jzhao.xyz) 
+![[Pasted image 20240423062122.png]]
