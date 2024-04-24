@@ -10,3 +10,6 @@ tags:
 ![[Pasted image 20240424042640.png]]
 
 ![[GLybudNXAAAG7Jg.jpg]]
+
+![[Pasted image 20240424213341.png]]
+![[Pasted image 20240424213348.png]]

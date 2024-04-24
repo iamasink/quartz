@@ -20,6 +20,9 @@ import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 
+// custom components
+import LineSpacer from "./LineSpacer"
+
 export {
   ArticleTitle,
   Content,
@@ -42,4 +45,5 @@ export {
   RecentNotes,
   NotFound,
   Breadcrumbs,
+  LineSpacer
 }
