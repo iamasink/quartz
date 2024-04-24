@@ -1,0 +1,4 @@
+
+how to create a samba share:
+https://www.linuxbabe.com/ubuntu/install-samba-server-file-share
+the username can be same as the user you use i think.
