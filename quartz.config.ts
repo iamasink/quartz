@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "lillie's stuff 🌸",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -19,11 +19,11 @@ const config: QuartzConfig = {
     ignorePatterns: ["Private", "Templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
-      fontOrigin: "googleFonts",
-      cdnCaching: true,
+      fontOrigin: "local",
+      cdnCaching: false,
       typography: {
         header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        body: "Nunito",
         code: "IBM Plex Mono",
       },
       colors: {
@@ -69,7 +69,7 @@ const config: QuartzConfig = {
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents({ collapseByDefault: true }),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
-      Plugin.Description(),
+      Plugin.Description({ descriptionLength: 0 }),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [

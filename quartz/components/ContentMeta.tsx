@@ -30,7 +30,11 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
       const segments: (string | JSX.Element)[] = []
 
       if (fileData.dates) {
-        segments.push(formatDate(getDate(cfg, fileData)!, cfg.locale))
+        const date = new Date(fileData.dates.created);
+        const formatteddate = date.toISOString()
+          .replace(/T.+/, ' ')      // delete the T and everything after
+
+        segments.push(formatteddate)
       }
 
       // Display reading time if enabled
@@ -41,6 +45,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
         })
         segments.push(displayedTime)
       }
+
 
       const segmentsElements = segments.map((segment) => <span>{segment}</span>)
 

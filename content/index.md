@@ -1,13 +1,12 @@
 ---
-title: Welcome to Quartz
+title: Welcome
 draft: false
 aliases: 
-tags: []
+tags: 
+description: the start of something (or nothing)
 ---
+hi! welcome!! whats up!?
+im not really one for writing, but apparently i have stuff to say after one too many twitter threads ( senseless ramblings), one of which i copied here at "[[The current state of YouTube subtitles]]"
 
-quartz, [documentation](https://quartz.jzhao.xyz) 
-![[Pasted image 20240423062122.png]]
-
-Hi welcome whats up :3
-im not very interesting sorry
 this took me 4 attempts to setup and i dont even know what i wanna do with it
+read more about the static site generator this uses, and some other thoughts i have about this place: [[Quartz]]

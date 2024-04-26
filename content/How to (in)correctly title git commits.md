@@ -2,8 +2,11 @@
 title: 
 draft: false
 aliases: 
-tags:
+tags: 
+description: (mostly my) terribleist git commit messages
 ---
+
+
 ![[image.png]]
 ![[Pasted image 20240424042617.png]]
 ![[Pasted image 20240424042627.png]]
@@ -13,3 +16,5 @@ tags:
 
 ![[Pasted image 20240424213341.png]]
 ![[Pasted image 20240424213348.png]]
+
+I do try to commit actually useful messages, but some of my repos are a lost cause 😭

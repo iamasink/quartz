@@ -6,7 +6,7 @@ export default (() => {
   function LineSpacer() {
     return <hr class="linespacer"></hr>
   }
- 
+
   // LineSpacer.css = `
   // hr.big {
   //     /*gradient hr line */
@@ -15,6 +15,6 @@ export default (() => {
   //     background-image: -webkit-linear-gradient(left, #f9beca, var(--secondary), #f9beca);
   // }
   // `
- 
+
   return LineSpacer
 }) satisfies QuartzComponentConstructor

@@ -22,6 +22,7 @@ import Breadcrumbs from "./Breadcrumbs"
 
 // custom components
 import LineSpacer from "./LineSpacer"
+import Description from "./Description"
 
 export {
   ArticleTitle,
@@ -45,5 +46,6 @@ export {
   RecentNotes,
   NotFound,
   Breadcrumbs,
-  LineSpacer
+  LineSpacer,
+  Description
 }

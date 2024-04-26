@@ -1,4 +1,5 @@
 import { htmlToJsx } from "../../util/jsx"
+import RecentNotes from "../RecentNotes"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "../types"
 
 const Content: QuartzComponent = ({ fileData, tree }: QuartzComponentProps) => {
@@ -6,6 +7,7 @@ const Content: QuartzComponent = ({ fileData, tree }: QuartzComponentProps) => {
   const classes: string[] = fileData.frontmatter?.cssclasses ?? []
   const classString = ["popover-hint", ...classes].join(" ")
   return <article class={classString}>{content}</article>
+
 }
 
 export default (() => Content) satisfies QuartzComponentConstructor
