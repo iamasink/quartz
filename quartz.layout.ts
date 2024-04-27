@@ -29,6 +29,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer({
+      useSavedState: false,
       sortFn: (a, b) => {
         if ((!a.file && !b.file) || (a.file && b.file)) {
           // Compare creation dates if both items have files
@@ -59,16 +60,16 @@ export const defaultContentPageLayout: PageLayout = {
           return -1;
         }
       },
-      mapFn: (node) => {
-        if (node.file) {
-          if (node.file.dates) {
-            const date = new Date(node.file.dates.created);
-            const formatteddate = date.toISOString()
-              .replace(/T.+/, ' ')      // delete the T and everything after
-            // node.displayName = formatteddate + " - " + node.displayName
-          }
-        }
-      },
+      // mapFn: (node) => {
+      //   if (node.file) {
+      //     if (node.file.dates) {
+      //       const date = new Date(node.file.dates.created);
+      //       const formatteddate = date.toISOString()
+      //         .replace(/T.+/, ' ')      // delete the T and everything after
+      //       node.displayName = formatteddate + " - " + node.displayName
+      //     }
+      //   }
+      // },
 
     })),
   ],
@@ -76,7 +77,8 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
-    Component.MobileOnly(Component.Explorer()),
+    Component.MobileOnly(Component.Explorer(
+      { useSavedState: false, })),
   ],
 }
 
@@ -92,9 +94,11 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(Component.Explorer(
+      { useSavedState: false, })),
   ],
   right: [
-    Component.MobileOnly(Component.Explorer()),
+    Component.MobileOnly(Component.Explorer(
+      { useSavedState: false, })),
   ],
 }

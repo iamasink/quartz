@@ -3,7 +3,7 @@ title:
 draft: false
 aliases: 
 tags: 
-description: (mostly my) terribleist git commit messages
+description: (mostly my) terrible-ist git commit messages
 ---
 
 
