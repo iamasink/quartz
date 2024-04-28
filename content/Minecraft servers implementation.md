@@ -12,7 +12,7 @@ draft: false
 ---
 I often host Minecraft servers for friends. it's really useful to have someone who can do this for those few weeks per year when we're playing minecraft. it is so much better than using aternos or paying for a dedicated server.
 
-i'd like to say i've gotten it down to an art and these days can get a server running in a few minutes, often before people's games have loaded if its a heavily modded version
+at this point, i've created around 70 separate servers and i'd like to say i've gotten it down to an art and these days can get a server running in a few minutes, often before people's games have loaded if its a heavily modded version
 
 Before i had my own ""server"" (old pc), i hosted everything on my main pc, and sometimes still host stuff there - usually things that would benefit from more than 8gb of ram. as of writing i'm hosting a modded minecraft server on my main pc.
 

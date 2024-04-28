@@ -1,7 +1,8 @@
 ---
 title: 
 draft: false
-aliases: 
+aliases:
+  - minecraft-links
 tags:
   - minecraft
   - youtube
