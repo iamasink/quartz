@@ -4,7 +4,7 @@ description:
 aliases: 
 tags:
   - discord
-draft: true
+draft: false
 ---
 [GitHub - iamasink/lilysbot: my discord bot :3](https://github.com/iamasink/lilysbot)
 i created my discord bot, also known as Wiwwie, because i own a discord server, and i wanted it to do some specific things. 
