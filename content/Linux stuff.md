@@ -13,3 +13,6 @@ the username can be same as the user you use i think.
 
 
 [[Minecraft servers implementation]], how i host servers for friends :3
+
+never used but might be useful
+[GitHub - joedwards32/CS2: CS2 Dedicated Server Docker Image](https://github.com/joedwards32/CS2)
