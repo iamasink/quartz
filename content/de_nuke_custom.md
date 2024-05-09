@@ -3,7 +3,7 @@ title:
 description: 
 aliases: 
 tags: 
-draft: true
+draft: false
 ---
 [How to decompile vpk map? Getting errors · ValveResourceFormat/ValveResourceFormat · Discussion #619 · GitHub](https://github.com/ValveResourceFormat/ValveResourceFormat/discussions/619)
 
