@@ -50,6 +50,10 @@ Shift & CapsLock:: {
 this doesn't even make sense though, does Shift Up even do anything??? pressing it again still does it
 im so confusewd gahkdfkgjhadg
 
+this previous thing doesn't work.
+
+i will try changing the last send to SendInput, but i doubt that'll do anything as they should be synonymous
+
 # multi monitor stuff
 I wanted a way to be able to switch the currently enabled monitors. This seems like it should be really easy to achieve with autohotkey or even some software out there. 
 Apparently im weird (wow, news to me!! /j) and this is some really obscure thing?!?!
