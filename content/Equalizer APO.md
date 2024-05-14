@@ -1,8 +1,8 @@
 ---
 title: 
-description: 
-aliases: 
-tags: 
+description: wee audio
+aliases: eq
+tags: equalizer, audio
 draft: false
 ---
 I do not want to get into the whole messing with equalisers, im no audiophile, but [AutoEq](https://autoeq.app/) i think makes stuff sound better. 
@@ -13,3 +13,4 @@ I often switch between audio devices so here is how to use multiple presets for 
 
 In the Equalizer APO Configurator, setting my earbuds as SFX/EFX didn't seem to work, SFX/MFX does do something, but a lot of stuff is buzzing, even with a flat response 
 Disabling pre-mix seems to remove the buzzing with a flat curve but changing anything makes it buzz again. I will just leave it disabled.
+

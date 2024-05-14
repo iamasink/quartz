@@ -30,7 +30,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
       const segments: (string | JSX.Element)[] = []
 
       if (fileData.dates) {
-        const date = new Date(fileData.dates.created);
+        const date = new Date(fileData.dates.modified);
         const formatteddate = date.toISOString()
           .replace(/T.+/, ' ')      // delete the T and everything after
 

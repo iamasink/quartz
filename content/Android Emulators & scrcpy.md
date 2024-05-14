@@ -1,8 +1,8 @@
 ---
 title: 
-description: 
+description: phone → pc
 aliases: 
-tags: 
+tags: android, vm, emulation
 draft: false
 ---
 There are plenty of emulators for android, but they all seem to run terribly. Bluestacks, and similar apps also are riddled with ads. Why is there no way to decently emulate Android!?

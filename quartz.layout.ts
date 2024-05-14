@@ -7,7 +7,8 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   footer: Component.Footer({
     links: {
-      "Home": "https://iamas.ink"
+      "My Homepage": "https://iamas.ink",
+      "View on GitHub": "https://github.com/iamasink/quartz"
     },
   }),
 }
@@ -31,16 +32,16 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.Explorer({
       useSavedState: false,
       sortFn: (a, b) => {
-        if ((!a.file && !b.file) || (a.file && b.file)) {
+        if ((a.file && b.file)) {
           // Compare creation dates if both items have files
-          if (a.file && b.file && a.file.dates?.created && b.file.dates?.created) {
-            const createdA = new Date(a.file.dates.created);
-            const createdB = new Date(b.file.dates.created);
+          if (a.file && b.file && a.file.dates?.modified && b.file.dates?.modified) {
+            const createdA = new Date(a.file.dates.modified);
+            const createdB = new Date(b.file.dates.modified);
 
-            // Sort in ascending order
-            if (createdA < createdB) {
+            // Sort 
+            if (createdA > createdB) {
               return -1;
-            } else if (createdA > createdB) {
+            } else if (createdA < createdB) {
               return 1;
             } else {
               return 0;

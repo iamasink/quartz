@@ -7,6 +7,7 @@ tags:
   - youtube
   - rant
 description: how to be anti-accessible
+date:
 ---
 or; i stupidly rant about youtube captions 
 i wrote this after realising apparently i care about some stuff, and this page seems cooler than a [twitter thread](https://twitter.com/lilynekoi/status/1780734615830876646)
