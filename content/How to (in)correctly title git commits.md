@@ -4,6 +4,7 @@ draft: false
 aliases: 
 tags: 
 description: (mostly my) terrible-ist git commit messages
+date: 2024-04-27
 ---
 
 

@@ -34,9 +34,9 @@ export const defaultContentPageLayout: PageLayout = {
       sortFn: (a, b) => {
         if ((a.file && b.file)) {
           // Compare creation dates if both items have files
-          if (a.file && b.file && a.file.dates?.modified && b.file.dates?.modified) {
-            const createdA = new Date(a.file.dates.modified);
-            const createdB = new Date(b.file.dates.modified);
+          if (a.file.frontmatter && b.file.frontmatter && a.file.frontmatter.date && b.file.frontmatter.date) {
+            const createdA = new Date(a.file.frontmatter.date as any);
+            const createdB = new Date(b.file.frontmatter.date as any);
 
             // Sort 
             if (createdA > createdB) {

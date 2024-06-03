@@ -6,6 +6,7 @@ tags:
   - linux
   - server
 description: some useful linux stuff for later
+date: 2024-05-09 
 ---
 how to create a samba share:
 https://www.linuxbabe.com/ubuntu/install-samba-server-file-share

@@ -4,6 +4,7 @@ description:
 aliases: 
 tags: 
 draft: false
+date: 2024-05-07
 ---
 [How to decompile vpk map? Getting errors · ValveResourceFormat/ValveResourceFormat · Discussion #619 · GitHub](https://github.com/ValveResourceFormat/ValveResourceFormat/discussions/619)
 

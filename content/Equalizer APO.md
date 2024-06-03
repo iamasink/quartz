@@ -4,6 +4,7 @@ description: wee audio
 aliases: eq
 tags: equalizer, audio
 draft: false
+date: 2024-05-09
 ---
 I do not want to get into the whole messing with equalisers, im no audiophile, but [AutoEq](https://autoeq.app/) i think makes stuff sound better. 
 I use presets from autoeq in Equalizer APO on Windows, and Wavelet on Android.

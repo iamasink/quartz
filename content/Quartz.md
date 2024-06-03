@@ -3,6 +3,7 @@ draft: false
 aliases: 
 tags: 
 description: what runs (builds? idk) the place
+date: 2024-04-27 
 ---
 [quartz](https://quartz.jzhao.xyz/)  is kinda cool. i probably wouldn't have used it if i didn't already use obsidian, but I don't even use obsidian that much!! but it is a nice editor and markdown is cool (except it's weird line breaking stuff but that can be fixed here :3)
 and like I would be way too lazy to do anything of the sorts otherwise. html isn't hard, but its more friction than i want for this.
@@ -208,8 +209,8 @@ i created a custom component called LineSpacer, which i currently only use on mo
 
 ## other stuff
 i modified the pageWidth in `quartz/styles/variables.scss`
-so $pageWidth is 800px instead of the default of 750, and 
-$sidePanelWidth is 500px instead of 380x.
+so `$pageWidth` is 800px instead of the default of 750, and 
+`$sidePanelWidth` is 500px instead of 380x.
 this makes the site wider, which is just more comfy to me, and allows for longer titles (and descriptions, using my component) in the explorer.
 
 

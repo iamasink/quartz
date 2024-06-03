@@ -7,6 +7,7 @@ aliases:
 tags:
   - ahk
 draft: false
+date: 2024-05-09
 ---
 # An issue where AHK thinks a modifier key is down, even when its not
 I have this code:

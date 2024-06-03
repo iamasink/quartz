@@ -29,12 +29,24 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
     if (text) {
       const segments: (string | JSX.Element)[] = []
 
-      if (fileData.dates) {
+
+      if (fileData.frontmatter?.date) {
+        const date = new Date(fileData.frontmatter['date'] as any);
+        console.log(date)
+        const formatteddate = date.toISOString()
+          .replace(/T.+/, ' ')      // delete the T and everything after
+
+        segments.push(formatteddate)
+        console.log("A")
+      }
+      else if (fileData.dates) {
         const date = new Date(fileData.dates.modified);
         const formatteddate = date.toISOString()
           .replace(/T.+/, ' ')      // delete the T and everything after
 
         segments.push(formatteddate)
+        console.log("AB")
+
       }
 
       // Display reading time if enabled

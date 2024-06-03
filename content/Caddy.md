@@ -5,6 +5,7 @@ aliases:
 tags:
   - linux
   - server
+date: 2024-04-24
 ---
 # Redirect a path to a subdomain with path
 

@@ -4,5 +4,6 @@ description:
 aliases: 
 tags: 
 draft: false
-date: <% tp.date.now("YYYY-MM-DD") %>
+date: 2024-05-16
 ---
+awawawa

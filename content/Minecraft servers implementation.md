@@ -9,6 +9,7 @@ tags:
   - server
   - docker
 draft: false
+date: 2024-04-27 
 ---
 I often host Minecraft servers for friends. it's really useful to have someone who can do this for those few weeks per year when we're playing minecraft. it is so much better than using aternos or paying for a dedicated server.
 

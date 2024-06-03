@@ -2,8 +2,12 @@
 title: 
 description: phone → pc
 aliases: 
-tags: android, vm, emulation
+tags:
+  - android
+  - vm
+  - emulation
 draft: false
+date: 2024-05-14
 ---
 There are plenty of emulators for android, but they all seem to run terribly. Bluestacks, and similar apps also are riddled with ads. Why is there no way to decently emulate Android!?
 It's likely that scrcpy is the best way to run it, especially with a higher end phone.
