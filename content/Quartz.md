@@ -214,3 +214,6 @@ so `$pageWidth` is 800px instead of the default of 750, and
 this makes the site wider, which is just more comfy to me, and allows for longer titles (and descriptions, using my component) in the explorer.
 
 
+## date in quartz and obsidian
+obsidian and quartz often report the date incorrectly. to combat this, I just added `\<% tp.date.now("YYYY-MM-DD") %>`  to the template's date in the frontmatter. i can change this too if i want. i dont think i made quartz do anything special as the frontmatter gets priority.
+
