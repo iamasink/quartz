@@ -22,6 +22,10 @@ dmxconvert -i <in file> -o <out file> -oe binary -of vmap
 
 
 # minimap
+[Counter-Strike 2 Adding a minimap (Read Desc) - YouTube](https://youtu.be/vGItC8HAznk?si=4-Uao9FZWM0y_sSu)
+I believe this can be done AFTER full compile, without re-compiling the map.
+
+or:
 just ignore "Create minimap" use [Radgen](https://developer.valvesoftware.com/wiki/RadGen) [Radgen minimap creation - CS2 Mapping Academy #11 (Counter Strike 2) - YouTube](https://www.youtube.com/watch?v=vDhUOtkXiOM)
 radgen v1.0.0
 ![[RadGen_-_v1.0.0.zip]]
@@ -29,7 +33,17 @@ radgen v1.0.0
 # console commands 
 commands to quickly test ingame
 ```
-sv_cheats 1; sv_warmup_to_freezetime_delay 0; mp_freezetime 0; bot_kick; mp_roundtime_defuse 60; mp_round_restart_delay 0; endround; sv_infinite_ammo 2
+sv_cheats 1; sv_warmup_to_freezetime_delay 0; mp_freezetime 0; mp_team_intro_time 0; bot_kick; mp_roundtime_defuse 60; mp_round_restart_delay 0; endround; sv_infinite_ammo 2
 ```
 
+commands to toggle hud
+off
+```
+cl_hud_telemetry_frametime_show 0; cl_hud_telemetry_ping_show 0; cl_hud_telemetry_net_misdelivery_show 0; cl_drawhud 0; cl_drawhud_force_deathnotices 0; cl_drawhud_force_radar 0; cl_drawhud_force_teamid_overhead 0; r_drawviewmodel 0
+```
+on
+```
+cl_hud_telemetry_frametime_show 2; cl_hud_telemetry_ping_show 2; cl_hud_telemetry_net_misdelivery_show 2; cl_drawhud 1;  r_drawviewmodel 1
+```
 ---
+

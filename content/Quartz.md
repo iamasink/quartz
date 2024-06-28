@@ -17,7 +17,7 @@ eventually i want to move this from q.iamas.ink to something like iamas.ink/blog
 i recently also came across [Quarto](https://quarto.org), which i might prefer to quartz.
 there's also [Lume](https://lume.land/), which I really like the look of
 the awesome thing is, with markdown, i can switch quite easily and wont have to actually modify much (i could even use multiple at once, i guess.)
-sigh, so much i want to do, so little ~~time~~ energy. not time, i have probably too much (and would anyone like to trade some for money, i guess??? employ me??)
+sigh, so much i want to do, so little ~~time~~ energy. 
 
 # customisation
 ## attempting (and failing) to add a separate page for explorer
