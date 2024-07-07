@@ -33,17 +33,31 @@ radgen v1.0.0
 # console commands 
 commands to quickly test ingame
 ```
-sv_cheats 1; sv_warmup_to_freezetime_delay 0; mp_freezetime 0; mp_team_intro_time 0; bot_kick; mp_roundtime_defuse 60; mp_round_restart_delay 0; endround; sv_infinite_ammo 2
+sv_cheats 1; sv_warmup_to_freezetime_delay 0; mp_freezetime 0; mp_team_intro_time 0; bot_kick; mp_roundtime_defuse 60; mp_roundtime 60; mp_roundtime_hostage 60; mp_round_restart_delay 0; endround; sv_infinite_ammo 2
 ```
+
 
 commands to toggle hud
 off
 ```
-cl_hud_telemetry_frametime_show 0; cl_hud_telemetry_ping_show 0; cl_hud_telemetry_net_misdelivery_show 0; cl_drawhud 0; cl_drawhud_force_deathnotices 0; cl_drawhud_force_radar 0; cl_drawhud_force_teamid_overhead 0; r_drawviewmodel 0
+cl_hud_telemetry_frametime_show 0; cl_hud_telemetry_ping_show 0; cl_hud_telemetry_net_misdelivery_show 0; cl_drawhud 0; cl_drawhud_force_deathnotices 0; cl_drawhud_force_radar 0; cl_drawhud_force_teamid_overhead 0; r_drawviewmodel 0; r_show_build_info false
 ```
 on
 ```
-cl_hud_telemetry_frametime_show 2; cl_hud_telemetry_ping_show 2; cl_hud_telemetry_net_misdelivery_show 2; cl_drawhud 1;  r_drawviewmodel 1
+cl_hud_telemetry_frametime_show 2; cl_hud_telemetry_ping_show 2; cl_hud_telemetry_net_misdelivery_show 2; cl_drawhud 1;  r_drawviewmodel 1; r_show_build_info true
 ```
 ---
 
+
+# Decompilation
+light_spot -> light_barn
+light_omni -> light_omni2
+
+
+
+A lot of materials and models and stuff used in maps are from the base game, and aren't available in CS2.
+They can be extracted from `Counter-Strike Global Offensive\csgo\pak01_dir.vpk` using [Source2Viewer](https://github.com/ValveResourceFormat/ValveResourceFormat) (which is using [ValvePak](https://github.com/ValveResourceFormat/ValvePak), you can just use that too)
+most of these should be handled by the source 2 importer, but some textures don't like it 
+\¯\\\_(ツ)\_/¯ i think its mostly materals/dev/ that i've had to fix manually
+I modified import_map_community.py to work better and not hard fail if it messed up with a model
+[modified version of valve's import\_map\_community.py for CS2 · GitHub](https://gist.github.com/iamasink/6a663421a0ef51fadd34dd4c3b5b6fea)
