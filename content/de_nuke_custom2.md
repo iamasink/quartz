@@ -1,6 +1,6 @@
 ---
 title: 
-description: 
+description: i fixed nuke :)
 aliases: 
 tags: 
 draft: false

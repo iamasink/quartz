@@ -67,7 +67,36 @@ after some digging i found [Monitor Profile Switcher](https://sourceforge.net/pr
 
 
 
+# different coloured ahk icons
+i created these a while ago so might as well put them somewhere :3
 
 
+![[ahkocean 1.svg]]
+![[ahkocean 1.ico]]
 
+---
 
+![[ahkorange 1.svg]]
+![[ahkorange 1.ico]]
+
+---
+
+![[ahkred 1.svg]]
+![[ahkred 1.ico]]
+
+---
+
+![[ahkargon 1.svg]]
+![[ahkargon 1.ico]]
+
+---
+
+![[ahkblue 1.svg]]
+![[ahkblue 1.ico]]
+
+---
+
+![[ahkpurple 1.svg]]
+![[ahkpurple 1.ico]]
+
+---

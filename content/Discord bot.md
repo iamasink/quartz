@@ -1,11 +1,11 @@
 ---
 title: 
-description: 
+description: wiwwie!!!
 aliases: 
 tags:
   - discord
 draft: false
-date: 2024-04-29 
+date: 2024-04-29
 ---
 [GitHub - iamasink/lilysbot: my discord bot :3](https://github.com/iamasink/lilysbot)
 i created my discord bot, also known as Wiwwie, because i own a discord server, and i wanted it to do some specific things. 
