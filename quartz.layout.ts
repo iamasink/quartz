@@ -19,7 +19,7 @@ export const sharedPageComponents: SharedLayout = {
         categoryId: 'DIC_kwDOLx6nFM4Ch4ia',
         // how to map pages -> discussions
         // defaults to 'url'
-        mapping: "pathname",
+        mapping: "title",
         // mapping: "url" | "title" | "og:title" | "specific" | "number" | "pathname",
 
         // use strict title matching
@@ -32,7 +32,7 @@ export const sharedPageComponents: SharedLayout = {
 
         // where to put the comment input box relative to the comments
         // defaults to 'bottom'
-        inputPosition: "top",
+        inputPosition: "bottom",
       }
     }),
   ],
