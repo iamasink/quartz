@@ -25,6 +25,7 @@ import Comments from "./Comments"
 import LineSpacer from "./LineSpacer"
 import Description from "./Description"
 
+
 export {
   ArticleTitle,
   Content,
@@ -48,5 +49,7 @@ export {
   NotFound,
   Breadcrumbs,
   LineSpacer,
-  Description
+  Description,
+  Comments
 }
+

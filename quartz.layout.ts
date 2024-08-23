@@ -5,7 +5,21 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.Comments({
+      provider: 'giscus',
+      options: {
+        // from data-repo
+        repo: 'iamasink/quartz',
+        // from data-repo-id
+        repoId: 'R_kgDOLx6nFA',
+        // from data-category
+        category: 'Announcements',
+        // from data-category-id
+        categoryId: 'DIC_kwDOLx6nFM4Ch4ia',
+      }
+    }),
+  ],
   footer: Component.Footer({
     links: {
       "My Homepage": "https://iamas.ink",
@@ -36,30 +50,30 @@ export const defaultContentPageLayout: PageLayout = {
         if ((a.file && b.file)) {
           // Compare creation dates if both items have files
           if (a.file.frontmatter && b.file.frontmatter && a.file.frontmatter.date && b.file.frontmatter.date) {
-            const createdA = new Date(a.file.frontmatter.date as any);
-            const createdB = new Date(b.file.frontmatter.date as any);
+            const createdA = new Date(a.file.frontmatter.date as any)
+            const createdB = new Date(b.file.frontmatter.date as any)
 
             // Sort 
             if (createdA > createdB) {
-              return -1;
+              return -1
             } else if (createdA < createdB) {
-              return 1;
+              return 1
             } else {
-              return 0;
+              return 0
             }
           } else {
             // If neither or both items have files, compare display names
             return a.displayName.localeCompare(b.displayName, undefined, {
               numeric: true,
               sensitivity: "base",
-            });
+            })
           }
         } else if (a.file && !b.file) {
           // If only 'a' has a file, it should come after 'b'
-          return 1;
+          return 1
         } else {
           // If only 'b' has a file, it should come before 'a'
-          return -1;
+          return -1
         }
       },
       // mapFn: (node) => {
