@@ -6,35 +6,35 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [
-    Component.Comments({
-      provider: 'giscus',
-      options: {
-        // from data-repo
-        repo: 'iamasink/quartz',
-        // from data-repo-id
-        repoId: 'R_kgDOLx6nFA',
-        // from data-category
-        category: 'Announcements',
-        // from data-category-id
-        categoryId: 'DIC_kwDOLx6nFM4Ch4ia',
-        // how to map pages -> discussions
-        // defaults to 'url'
-        mapping: "title",
-        // mapping: "url" | "title" | "og:title" | "specific" | "number" | "pathname",
+    // Component.Comments({
+    //   provider: 'giscus',
+    //   options: {
+    //     // from data-repo
+    //     repo: 'iamasink/quartz',
+    //     // from data-repo-id
+    //     repoId: 'R_kgDOLx6nFA',
+    //     // from data-category
+    //     category: 'Announcements',
+    //     // from data-category-id
+    //     categoryId: 'DIC_kwDOLx6nFM4Ch4ia',
+    //     // how to map pages -> discussions
+    //     // defaults to 'url'
+    //     mapping: "title",
+    //     // mapping: "url" | "title" | "og:title" | "specific" | "number" | "pathname",
 
-        // use strict title matching
-        // defaults to true
-        strict: true,
+    //     // use strict title matching
+    //     // defaults to true
+    //     strict: true,
 
-        // whether to enable reactions for the main post
-        // defaults to true
-        reactionsEnabled: true,
+    //     // whether to enable reactions for the main post
+    //     // defaults to true
+    //     reactionsEnabled: true,
 
-        // where to put the comment input box relative to the comments
-        // defaults to 'bottom'
-        inputPosition: "bottom",
-      }
-    }),
+    //     // where to put the comment input box relative to the comments
+    //     // defaults to 'bottom'
+    //     inputPosition: "bottom",
+    //   }
+    // }),
   ],
   footer: Component.Footer({
     links: {

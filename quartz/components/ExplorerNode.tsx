@@ -178,6 +178,7 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
         <li key={node.file.slug}>
           <a href={resolveRelative(fileData.slug!, node.file.slug!)} data-for={node.file.slug}>
             {node.displayName}
+            {/* {node.displayName} <span className="date">— {node.file.frontmatter?.date} </span> */}
             {node.file.frontmatter?.description ? (<p className="subtitle">{node.file.frontmatter?.description}</p>) : {}}
           </a>
         </li>
