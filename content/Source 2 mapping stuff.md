@@ -61,3 +61,21 @@ most of these should be handled by the source 2 importer, but some textures don'
 \¯\\\_(ツ)\_/¯ i think its mostly materals/dev/ that i've had to fix manually
 I modified import_map_community.py to work better and not hard fail if it messed up with a model
 [modified version of valve's import\_map\_community.py for CS2 · GitHub](https://gist.github.com/iamasink/6a663421a0ef51fadd34dd4c3b5b6fea)
+
+
+# Porting maps
+useful command thank you [u/FFox398](https://reddit.com/user/FFox398/)
+
+5 points · [8 months ago](https://www.reddit.com/r/hammer/comments/1ahamgu/comment/komobtz/?utm_source=reddit&utm_medium=web2x&context=3)
+> 
+> You can but it is a bit tedious. I'll leave you a tutorial on how I did it but except to find problems and a lot.
+> 
+> The compiler goes and converts anything you want but it'll crash if it encounters an error or a material/model it cannot convert to Source 2. This wouldnt be a problem if it wasn't because THE WHOLE OPERATION CANCELS. GG Valve. Yes, if the tool finds a problem instead of ignoring it, decides to cancel the whole process.
+> 
+> Also the tool will also crash if if there is a custom model present in the map but not present in the origin folder. Same outcome it crashes and you have to start over.
+> 
+> [https://youtu.be/j20MivATR5w](https://youtu.be/j20MivATR5w)
+> 
+> Be patient with it. But once you get it done the result is near 1:1 to the original Source 1 map.
+> 
+> Also tip, do not use the map the tool converts itself from .vmf to .vmap because it'll mess up your geometry, instead launch Hammer Editor and open the VMF as you would in Source 1, it'll preserve everything and it'll convert itself to .vmap without messing up the geometry.

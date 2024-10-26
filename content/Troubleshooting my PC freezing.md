@@ -59,7 +59,7 @@ I'm not too sure what fixed it eventually, possibly after changing some hardware
 ##### 22:12:30
 Froze again while watching youtube, audio did the same glitch thing.
 Audio played for about a minute before stopping (I don't think i waited this long previously)
-A message that was unread on my pc immediately went through to notify my phone.
+A discord message that was unread on my pc immediately went through to notify my phone.
 From 22:06 to 22:14 there was no system information in Event Viewer, the only indication something happened is the Kernel-General boot information. (at 22:14:12)
 There were however many Application errors, the latest before boot was 22:13:09, but I don't think its particularly relevant as it has been occurring continuously for a long while, even before this issue started happening. 
 
@@ -136,3 +136,18 @@ well my pc hasn't crashed since i did the restore. yay!!!
 i shouldn't have said anything..
 I opened Satisfactory and it was fine but then after it being open for a few minutes just on the menu screen the game crashed then a few seconds later my monitors turned off* but I was still in discord call and then a while later the audio went quiet but like i couldnt be heard from earlier than that
 \* which is a slightly different issue to before, where my displays would freeze and that would also happen on low performance stuff even when idle.
+
+##### 2024-09-22
+game froze then screens turned off for a moment
+happened again almost immediately after restarting
+no audio quickly and mic bugged
+ran ddu, still happens
+tried driver update
+
+##### 2024-09-28
+i have no idea what the issue is. some days its fine sometimes i crash once or twice then its fine i have actually no idea. i think it could be some power related thing??? maybe temperature or overclock unstableness/??? i hate this.
+
+##### 2024-10-20
+Well it hasn't happened in a while so hopefully its fixed ¯\\\_(ツ)\_/¯
+I *think* its something to do with power, it seemed to happen if I had my fan running..
+Which might make sense because I have like too much stuff on one plug socket
